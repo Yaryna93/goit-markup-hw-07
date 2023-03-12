@@ -6,4 +6,18 @@
 .cards-set {
   gap: 24px; 
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-open {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  stroke: black;
+  line-height: 0;
+}
 }

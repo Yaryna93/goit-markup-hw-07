@@ -86,6 +86,10 @@
           align-items: center;
         }
 
+        .menu-open {
+          display: none;
+        }
+
   .hero {
    max-width: 768px;
    padding: 112px 136px 112px;
