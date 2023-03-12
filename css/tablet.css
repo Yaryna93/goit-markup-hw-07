@@ -147,7 +147,8 @@
     }
 
   .card-set {
-    flex-basis: calc((100% - 72px)/2);
+    width: 356px;
+    /* flex-basis: calc((100% - 72px)/2); */
   }
 
 }
