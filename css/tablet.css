@@ -1,12 +1,14 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 584px;
   }
     
   .customers-container {
     max-width: 584px;
   }
-
+.header-container {
+max-width: 768px;
+}
     .header-list {
       display: flex;
       font-weight: 500;
@@ -124,6 +126,7 @@
 
   .list-teams {
     display: flex;
+    flex-wrap: wrap;
     gap: 64px 24px;
           
   }
@@ -131,7 +134,7 @@
    
   .names-backgr {
     flex-basis: calc((100% - 24px)/2);
-    margin-bottom: 64px;
+    
   }
 
   .team-container {
@@ -139,10 +142,8 @@
   }
 
   .container.team-container {
-    max-width: 396px;
-    gap: 64px 24px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    max-width: 584px;
+    
   }
 
   .text-name {
@@ -189,6 +190,10 @@ width: 360px;
   flex-wrap: wrap;
   align-items: baseline;
 
+}
+.footer {
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
 
 .footer-logo {

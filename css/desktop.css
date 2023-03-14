@@ -1,9 +1,12 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1160px;
   }
 
-   
+   .container.team-container {
+    max-width: 1160px;
+   }
+
 .header-list {
   display: flex;
   font-weight: 500;
@@ -112,7 +115,7 @@
         }
   .text-main {
       font-weight: 700;
-      max-width: 320px;
+      max-width: 496px;
       font-size: 56px;
       line-height: 1.07;
     }
@@ -125,6 +128,10 @@
     flex-basis: calc((100% - 72px)/4);
   }
 
+ .names-backgr:not(:last-child) {
+  margin-bottom: ;
+}
+
   .customers-item {
     flex-basis: calc((100%-120px)/6);
     width: 168px;
@@ -132,10 +139,10 @@
   }
 
   .section-service {
-    display: inline-block;
+    display: block;
     margin-top: 0;
     padding-bottom: 120px;
-    margin-left: 156px;
+
 }
  .section-inverse 
   
@@ -184,7 +191,7 @@ line-height: 1.5;
     }
   
     .card-set {
-      flex-basis: calc((100% - 72px)/4);
+      width: calc((100% - 72px)/4);
     }
 
         .modal {
@@ -201,7 +208,15 @@ line-height: 1.5;
         }
 
         .subscribe-field {
-          margin-left: 80px;
+          margin-left: auto;
+          margin-top: 0;
+        }
+
+        .footer {
+          padding-right:0;
+        }
+        .footer-description {
+          margin-right: 120px;
         }
         
 }

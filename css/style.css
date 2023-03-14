@@ -561,7 +561,7 @@ margin-top: 16px;
 .footer {
 background-color: var(--primary-color);
 padding-top: 96px;
-padding-right: 96px;
+padding-bottom: 96px;
 /* padding-top: 100px;
 padding-bottom: 100px; */
 }
