@@ -2,6 +2,8 @@
   .container {
     max-width: 1200px;
   }
+
+   
 .header-list {
   display: flex;
   font-weight: 500;
@@ -83,7 +85,9 @@
 .header-address-list {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
+
 
 .menu-open {
   display: none;
@@ -127,26 +131,78 @@
     height: 88px;
   }
 
+  .section-service {
+    display: inline-block;
+    margin-top: 0;
+    padding-bottom: 120px;
+    margin-left: 156px;
+}
+ .section-inverse 
+  
+.list-teams {
+  display: flex;
+  gap: 24px;
+}
+.text-name {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  
+}
+
   .customers-list {
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
   }
 
   .thumb {
-    display: flex;
-
-  }
+display: flex;
+align-items: center;
+justify-content: center;
+width: 264px;
+height: 112px;
+background-color: var(--secondory-color);
+border-radius: 4px;
 }
 
+.text-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
 .section {
-  padding-top: 120px;
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  
+    .cards-set {
+      display: flex;
+      gap: 24px;
+    }
+  
+    .card-set {
+      flex-basis: calc((100% - 72px)/4);
+    }
+
+        .modal {
+          max-width: 408px;
+          width: 100%;
+        }
+    
+        .modal-input {
+          width: 360px;
+        }
+    
+        .modal-message {
+          width: 360px;
+        }
+
+        .subscribe-field {
+          margin-left: 80px;
+        }
+        
 }
 
-.cards-set {
-  display: flex;
-  gap: 24px;
-}
-
-.card-set {
-  flex-basis: calc((100% - 72px)/4);
-}
