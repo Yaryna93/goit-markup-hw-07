@@ -122,15 +122,15 @@
   .list-teams {
     display: flex;
     gap: 24px;
+    
   }
 
   .names-backgr {
     flex-basis: calc((100% - 72px)/4);
+    
   }
 
- .names-backgr:not(:last-child) {
-  margin-bottom: ;
-}
+ 
 
   .customers-item {
     flex-basis: calc((100%-120px)/6);
@@ -212,9 +212,7 @@ line-height: 1.5;
           margin-top: 0;
         }
 
-        .footer {
-          padding-right:0;
-        }
+        
         .footer-description {
           margin-right: 120px;
         }

@@ -137,6 +137,7 @@ max-width: 768px;
     
   }
 
+
   .team-container {
     max-width: 584px;
   }
@@ -197,16 +198,54 @@ width: 360px;
 }
 
 .footer-logo {
- display: flex ;
+  display: flex;
 }
 
 .footer-description {
   margin-right: 24px;
 }
 
-.footer-soc{
+.footer-soc {
   margin-top: 0;
 }
+
+.footer-soc-title {
+  display: flex;
+}
+
+.subscribe-field {
+  width: 453px;
+}
+
+.footer-sub-title {
+  text-align: left;
+}
+
+.subscribe-input {
+  width: 264px;
+  margin-bottom: 0;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
+
+.footer-logo {
+ display: flex ;
+}
+
+.footer-description {
+  margin-right: 24px;
+  align-content: center;
+}
+
+
 .footer-soc-title {
   display: flex;
 }
